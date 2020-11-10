@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Special Calculator</title>
+        <script src="calcjs.js"></script>
+        <link rel="stylesheet" href="calccss.css"></link>
+    </head>
+    <body>
+	    <div>
+		    <input id="input1" type="text">			<!-- First operand will be taken -->
+		    <select id="arithm">                    <!-- A dropdown to select which arithmatic operation we want to perform will appear -->
+			    <option value="+">+</option>
+			    <option value="-">-</option>
+			    <option value="*">×</option>
+			    <option value="/">÷</option>
+		    </select>
+		    <input id="input2" type="text">			<!-- Second operand will be taken -->
+			<button onclick="document.getElementById('output').innerHTML =
+				calculate(document.getElementById('input1').value,
+				document.getElementById('input2').value)">Calculate!</button>
+		    <p>Result: <br><span id = "output"></span></p>
+	    </div>
+    </body>
+</html>

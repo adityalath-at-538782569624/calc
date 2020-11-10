@@ -1,0 +1,11 @@
+body{
+    background-color:#0c86cc;
+}
+div{
+    margin: auto;
+    margin-top:300px;
+    width: 40%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    background-color:#ccffcc;
+}
